@@ -11,7 +11,8 @@ pip install <package_name>
 создаем приложение `cart` коммандой `python startapp cart`,
 далее в файле `cart\views`:
 
-`from rest_framework_cart.cart import Cart
+`
+from rest_framework_cart.cart import Cart
 from rest_framework_cart.serializers import CartItemSerializer
 from rest_framework_cart.viewsets import CartViewSet
 
@@ -26,7 +27,8 @@ class CartView(CartViewSet):
     queryset = Product.objects.all()
 
     def checkout(self, request, *args, **kwargs):
-        pass`
+        pass
+`
 
 Далее добавим код в файл `cart/urls`:
 
