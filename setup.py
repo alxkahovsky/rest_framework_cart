@@ -31,7 +31,7 @@ def get_package_data(package):
 
 
 setup(
-    name='djangorestframework-rest_framework_cart',
+    name='rest_framework_cart',
     version='0.1.0',
     url='https://github.com/alxkahovsky/',
     license='MIT',
