@@ -1,1 +1,1 @@
-default_app_config = 'rest_framework_cart.apps.CartConfig'
+default_app_config = 'rest_framework_cart.apps.RestFrameworkCart'
